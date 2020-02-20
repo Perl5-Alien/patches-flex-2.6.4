@@ -201,4 +201,6 @@ tools/Makefile
 tests/Makefile
 )
 
+AM_MAINTAINER_MODE([enable])
+
 AC_OUTPUT
