@@ -188,9 +188,6 @@ reallocarr dnl    NetBSD function. Use reallocarray if not available.
 reallocarray dnl  OpenBSD function. We have replacement if not available.
 ])
 
-# are we ignoring tests
-AM_CONDITIONAL([SKIP_TEST], [ "$(echo $DEB_BUILD_OPTIONS | grep nocheck)" ])
-
 AC_CONFIG_FILES(
 Makefile
 doc/Makefile
